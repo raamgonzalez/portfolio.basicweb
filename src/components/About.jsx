@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="about">
       <section className="about__section about__title">
-	  	<p className="about__p--title">(ab)</p>
+	  	  <p className="about__p--title">(ab)</p>
       </section>
       <section className="about__section resume">
         <p className="about__p">

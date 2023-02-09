@@ -12,20 +12,9 @@
 }
 
 .card{
-    background-color: $primary;
-    font-family: $font-title;
-    font-size: $font-size-1;
-
-    border-radius: $border-radius-40px;
-    border: $border-1;
-    box-shadow: $shadow-card;
 
     @include flex( column, nowrap, none, flex-start, 0.1em);
-
-
-    // .card__header{
-    //     flex-basis: 1;
-    // }
+    @include card();
 
     .card__h2{
         margin-left: 0.4em;
@@ -40,17 +29,11 @@
 }
 
 .card--scroll{
-    background-color: $primary;
-    font-family: $font-title;
-    font-size: $font-size-3;
-    font-weight: 300;
 
-    border-radius: $border-radius-40px;
-    border: $border-1;
-    box-shadow: $shadow-card;
-
-    // @include flex( row, nowrap, space-between, flex-end);
+    @include card( $font-title, $font-size-3);
     @include flex( row, nowrap, right, center, 0);
+
+    font-weight: 300;
 
     .scroll__p{
         margin-right: 1em;
@@ -58,13 +41,6 @@
         align-self: flex-end;
     }
 }
-
-// @mixin flex( $direction, $cut, $just, $align) {
-//     display: flex;
-//     flex-flow: $directionm $cut;
-//     justify-content: $just;
-//     align-items: $align;
-// }
 
 .card__header{
     width: 100%;
@@ -76,8 +52,6 @@
         // background-color: aqua;
     }
 }
-
-
 
 .landingpage__about{
     grid-column: 1 / 3;

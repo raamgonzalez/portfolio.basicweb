@@ -1,8 +1,7 @@
 .about{
-    margin: 0 auto;
-    margin-top: 16rem;
+    margin: 16rem auto 0 auto;
 
-    height: 40rem;
+    height: 40em;
     width: 100%;
 
     display: grid;
@@ -11,23 +10,16 @@
     grid-gap: 1em;
 
     .about__section{
-        background-color: $primary;
-        font-family: $font-base;
-    
-        border-radius: $border-radius-40px;
-        border: $border-1;
-        box-shadow: $shadow-card;
-    
+
         @include flex( column, nowrap, none, flex-start, 0.1em);
+        @include card($font-title, $font-size-1);
+
 
         .about__p--title{
             margin-bottom: 1.5em;
-
-            font-size: $font-size-1;
-            font-family: $font-title;
             font-weight: 300;
         }
-        
+
         .about__p{
             margin: 1em 1em;
             font-size: $font-size-4;
@@ -37,7 +29,7 @@
         .about__h3{
             font-size: $font-size-2;
             margin-left: 0.6em;
-  
+
             text-align: left;
         }
 
