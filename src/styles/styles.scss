@@ -1,0 +1,15 @@
+
+/*Base*/
+@import './base/reset';
+@import './base/settings';
+@import './base/mixins';
+
+/*Components*/
+@import './components/navbar';
+@import './components/cardmaincontainer';
+@import './components/about';
+@import './components/project'; 
+
+
+/*Views*/
+@import './views/home';

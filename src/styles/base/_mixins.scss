@@ -1,0 +1,30 @@
+
+
+/* Mixins Flex*/
+
+@mixin flex( $direction, $cut, $just, $align, $gap ) {
+    display: flex;
+    flex-flow: $direction $cut;
+    justify-content: $just;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin grid( $columns, $space){
+    display: grid;
+    grid-template-columns: repeat( $columns, 1fr);
+    grid-gap: $space;
+
+    @media (max-width:480px) {
+        grid-template-columns: 1fr;
+        gap: 0em;
+    }
+}
+
+/* Mixins responsive */
+
+@mixin mv( $medida : 480px ){
+    @media (max-width: $medida) {
+        @content; 
+    }
+}
