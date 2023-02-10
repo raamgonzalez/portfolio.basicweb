@@ -8,7 +8,6 @@ const GlobalContextProvider = ({ children }) => {
     const { projects, softwares } = data;
 
 
-
     return (
         <GlobalContext.Provider value={{ 
             projects,

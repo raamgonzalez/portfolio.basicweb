@@ -1,5 +1,5 @@
 .skills{
-    margin: 12rem auto 0 auto;
+    margin: 10rem auto 0 auto;
 
 
     height: 40em;
@@ -10,12 +10,27 @@
     grid-gap: 1em;
 
     .skills__section{
+
         @include card( $font-base, $font-size-3 );
-        @include flex( column, nowrap, center, center, 0.1em);
+        @include flex( column, nowrap, flex-start, center, 0.1em);
 
         .skills__h3{
+            // margin: 0 0 0.8em 0.2em;
             font-family: $font-title;
             font-size: $font-size-2;
+        }
+
+        .architect__img{
+            // margin: 0 0 0 0.2em;
+            width: 4em;
+            object-fit: contain;
+        }
+
+        .skills__a{
+            // margin: 0.1rem 0 1rem 0rem;
+            // margin-top: 0.6em;
+            align-self: flex-end;
+            place-items: flex-end;
         }
     }
 
@@ -23,15 +38,18 @@
         grid-column: 1 / 5;
         grid-row: 4 / 6;
 
-        @include flex( row, wrap, flex-start, flex-start, 0.5em)
+        @include flex( row, wrap, flex-start, flex-start, 5rem)
     }
 
     .architect{
+        @include flex( column, nowrap, center, flex-start, 0.3em);
+        padding:  0 1.5rem 1.5rem 1.5rem;
+        // padding: 0 0.5em;
         
         grid-column: 5 / 7;
         grid-row: 4 / 6;
 
-        @include flex( column, wrap, center, flex-start, 1em);
+
     }
 
     .extra{
@@ -42,6 +60,7 @@
     }
 
     .skills__title{
+        height: 10rem;
         grid-column: 5 / 7;
         grid-row: 2 / 4;
         
@@ -52,7 +71,7 @@
             margin: 0 0 0.2em 0;
             align-self: center;
             font-family: $font-title;
-            font-size: 4em;
+            font-size: $font-size-1;
             font-weight: 300;
         }
     }
@@ -61,4 +80,5 @@
         grid-column: 5 / 7;
         grid-row: 1 / 3;
     }
+
 }

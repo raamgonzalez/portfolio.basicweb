@@ -29,7 +29,7 @@ export const data = {
       id: uuidv4(),
       name: "landing-page lamparas",
       description: "This is a project",
-    soft: [ "html", "css", "javascript", "sass", "python"],
+      soft: [ "html", "css", "javascript", "sass", "python"],
       media: "./media/projects/test.jpg",
     },
     {

@@ -1,5 +1,5 @@
 .about{
-    margin: 16rem auto 0 auto;
+    margin: 12rem auto 0 auto;
 
     height: 40em;
     width: 100%;
@@ -13,12 +13,6 @@
 
         @include flex( column, nowrap, none, flex-start, 0.1em);
         @include card($font-title, $font-size-1);
-
-
-        .about__p--title{
-            margin-bottom: 1.5em;
-            font-weight: 300;
-        }
 
         .about__p{
             margin: 1em 1em;
@@ -40,6 +34,11 @@
         grid-row: 1 / 5;
 
         @include flex( column, nowrap, center, center, 0.1em);
+
+        .about__p--title{
+            margin-bottom: 1.5em;
+            font-weight: 300;
+        }
     }
 
     .resume{
