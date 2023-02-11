@@ -5,13 +5,14 @@ export const GlobalContext = createContext('');
 
 const GlobalContextProvider = ({ children }) => {
 
-    const { projects, softwares } = data;
+    const { projects, softwares, about } = data;
 
 
     return (
         <GlobalContext.Provider value={{ 
             projects,
             softwares,
+            about
         }}
         >
         {children}

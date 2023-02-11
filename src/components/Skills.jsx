@@ -5,7 +5,10 @@ import SoftIcons from './SoftIcons'
 
 const Skills = () => {
 
-    // const { softwares } = useContext(GlobalContext)
+    const { softwares } = useContext(GlobalContext)
+
+    const check = softwares.flatMap((software) => software.src)
+    console.log(check) 
 
 
   return (
@@ -15,7 +18,7 @@ const Skills = () => {
 	  	  <p className="skills__p--title">(sk)</p>
       </section>
       <section className="skills__section softicons">
-        <SoftIcons/>
+        <img className='skills__img' src={softwares.flatMap((software) => software.src)} alt={softwares.title}/>
       </section>
       <section className="skills__section architect">
         <img src="https://icongr.am/fontawesome/heart-o.svg?size=128&color=E8D8B1" href="#" className='architect__img' alt="tipo"/>

@@ -4,7 +4,18 @@ import React from 'react'
 const SoftIcons = (props) => {
 
   const { softwares, projects } = props
-  console.log(softwares)
+
+
+  const intersected = projects.map((project) => {
+    const projectSoftwares = project.soft;
+    const common = softwares.filter(software => projectSoftwares.includes(software.title)).map(software => software.src);
+    return {
+      id: project.id,
+      soft: common
+    };
+  })
+
+  console.log(intersected)
 
   // const searchSoft = (softwares, projects) => {
 
@@ -43,11 +54,16 @@ const SoftIcons = (props) => {
      
 //    }
 //  }, [])
+
+
  
   
 
   return (
-    <div>Icons</div>
+
+    <ul className="soft__ul">
+      <li className="soft__li">test</li>
+    </ul>
   )
 }
 

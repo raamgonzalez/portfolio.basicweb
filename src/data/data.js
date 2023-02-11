@@ -1,42 +1,63 @@
 import { v4 as uuidv4} from 'uuid';
 
+
 export const data = {
+
+  about: {
+    resume: "Hola!, mi nombre es Ramsés pero algunos me dicen raam. Soy un Arquitecto apasionado por el diseño web y el front-end, combinando mis habilidades técnicas y creativas para crear experiencias en línea atractivas y funcionales. Mi formación como arquitecto me ha brindado una sólida comprensión de la estructura y la planificación, mientras que mi interés por el diseño web me ha permitido explorar mi creatividad y aprender sobre las últimas tecnologías.",
+    soft: "$Comunicación efectiva colaboré en coordinación de proyectos $Trabajo en equipo trabaje en equipos de diseño y proyecto de espacio publico $Resolución de problemas participe en mesas participativas en los barrios $Adaptabilidad $Pasión por el aprendizaje",
+    hobbies: ["#Futbol", "#Jugar videojuegos", "#Tocar la guitarra", "#Pasear a Boo (mi perra)"],
+    rrss: [
+      { id: uuidv4(), title: "instagra", src: "#", href: "#"},
+      { id: uuidv4(), title: "facebook", src: "#", href: "#"},
+      { id: uuidv4(), title: "github", src: "#", href: "#"},
+      { id: uuidv4(), title: "behance", src: "#", href: "#"},
+      { id: uuidv4(), title: "linkedin", src: "#", href: "#"},
+      { id: uuidv4(), title: "instagram", src: "#", href: "#"},
+    ],
+    study: [
+      { id: uuidv4(), title: "reactjs", src : "#"},
+      { id: uuidv4(), title: "jquery", src : "#"},
+      { id: uuidv4(), title: "astro", src : "#"},
+      { id: uuidv4(), title: "jest", src : "#"},
+    ]
+   },
   
   projects: [
     {
       id: uuidv4(),
       name: "tienda de tecnología",
       description:
-        "Blog de Arquitectura que contiene una consola de admin y cards con obras de arquitectura y arquitectos.",
-      soft: [ "html", "css", "javascript", "sass", "python"],
+        "Tienda de venta de productos tecnologicos, aproveche para incorporar mock async",        
+      soft: [ "html", "css", "javascript", "reactjs", "firebase" , "axios" ,  "sass"],
       media: "./media/projects/test.jpg",
     },
     {
       id: uuidv4(),
       name: "website portfolio",
-      description: "This is a project",
-      soft: [ "html", "css", "javascript", "sass", "python"],
+      description: "Web realizada con el fin de mostrar mis trabajos y desarrollo como programador",
+      soft: [ "html", "css", "javascript", "reactjs", "sass"],
       media: "./media/projects/test.jpg",
     },
     {
       id: uuidv4(),
       name: "blog arquitectura",
-      description: "This is a project",
-      soft: [ "html", "css", "javascript", "sass", "python"],
+      description: "Blog de Arquitectura que contiene una consola de admin y cards con obras de arquitectura y arquitectos.",
+      soft: [ "html", "css", "python", "django"],
       media: "./media/projects/test.jpg",
     },
     {
       id: uuidv4(),
       name: "landing-page lamparas",
-      description: "This is a project",
-      soft: [ "html", "css", "javascript", "sass", "python"],
+      description: "Pagina web realizada para curso de programación fullstack python.",
+      soft: [ "html", "css"],
       media: "./media/projects/test.jpg",
     },
     {
       id: uuidv4(),
       name: "tienda de camiseta",
-      description: "This is a project",
-      soft: [ "html", "css", "javascript", "sass", "python"],
+      description: "Web para tienda de camisetas de futbol realizada en javascript vanilla",
+      soft: [ "html", "css", "javascript"],
       media: "./media/projects/test.jpg",
     },
   ],
@@ -45,7 +66,7 @@ export const data = {
     {
       id: uuidv4(),
       title: "html",
-      src: "#",
+      src: "./media/softicons/logo_js.svg",
     },
     {
       id: uuidv4(),
@@ -54,7 +75,7 @@ export const data = {
     },
     {
       id: uuidv4(),
-      title: "javassript",
+      title: "javascript",
       src: "#",
     },
     {
@@ -90,6 +111,16 @@ export const data = {
     {
       id: uuidv4(),
       title: "photoshop",
+      src: "#",
+    },
+    {
+      id: uuidv4(),
+      title: "axios",
+      src: "#",
+    },
+    {
+      id: uuidv4(),
+      title: "firebase",
       src: "#",
     },
   ],

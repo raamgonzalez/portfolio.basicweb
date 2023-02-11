@@ -1,6 +1,12 @@
-import React from 'react'
+import { useContext } from 'react'
+import { GlobalContext } from '../context/GlobalContext';
 
 const About = () => {
+
+  const { about } = useContext(GlobalContext);
+
+  console.log(about)
+
   return (
     <section className="about">
       <section className="about__section about__title">
@@ -8,27 +14,24 @@ const About = () => {
       </section>
       <section className="about__section resume">
         <p className="about__p">
-          Hola!, mi nombre es Ramsés pero algunos me dicen raam. Soy un
-          Arquitecto apasionado por el diseño web y el front-end, combinando mis
-          habilidades técnicas y creativas para crear experiencias en línea
-          atractivas y funcionales.
+          {about.resume}
         </p>
         <h3 className="about__h3">resume</h3>
       </section>
       <section className="about__section soft">
-        <p className="about__p">text soft</p>
+        <p className="about__p">{about.soft}</p>
         <h3 className="about__h3">soft</h3>
       </section>
       <section className="about__section hobbies">
-        <p className="about__p">text hobbies</p>
+        <p className="about__p">{about.hobbies.map((hobbie) => hobbie )}</p>
         <h3 className="about__h3">hobbies</h3>
       </section>
       <section className="about__section social">
-        <p className="about__p">text social</p>
+        <p className="about__p">{about.rrss.map((social) => social.src)}</p>
         <h3 className="about__h3">social</h3>
       </section>
       <section className="about__section study">
-        <p className="about__p">text title</p>
+        <p className="about__p">{about.study.map((i) => i.src)}</p>
         <h3 className="about__h3">study</h3>
       </section>
     </section>

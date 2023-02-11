@@ -32,13 +32,19 @@
             align-self: flex-end;
             place-items: flex-end;
         }
+
+
     }
 
     .softicons{
         grid-column: 1 / 5;
         grid-row: 4 / 6;
 
-        @include flex( row, wrap, flex-start, flex-start, 5rem)
+        @include flex( row, wrap, flex-start, flex-start, 5rem);
+
+        .skills__img{
+            width: 50rem;
+        }
     }
 
     .architect{
