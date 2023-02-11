@@ -5,6 +5,7 @@ import ProjectContainer from '../components/ProjectContainer'
 import Header from '../components/Header'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
           <Skills/>
           <Contact/>
         </main>
+        <Footer/>
       </div>
     </>
   )

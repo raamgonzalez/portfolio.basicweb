@@ -5,7 +5,6 @@ const About = () => {
 
   const { about } = useContext(GlobalContext);
 
-  console.log(about)
 
   return (
     <section className="about">

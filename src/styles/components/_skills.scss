@@ -37,13 +37,16 @@
     }
 
     .softicons{
+        padding: 1em 2em;
+        margin: 0 auto;
+
         grid-column: 1 / 5;
         grid-row: 4 / 6;
 
-        @include flex( row, wrap, flex-start, flex-start, 5rem);
+        @include flex( row, wrap, flex-start, flex-start, 1em);
 
         .skills__img{
-            width: 50rem;
+            width: 2em;
         }
     }
 
