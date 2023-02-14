@@ -8,11 +8,11 @@ export const data = {
     soft: ["Comunicación efectiva colaboré en coordinación de proyectos", "Trabajo en equipo trabaje en equipos de diseño y proyecto de espacio publico", "Resolución de problemas participe en mesas participativas en los barrios", "Adaptabilidad", "Pasión por el aprendizaje"],
     hobbies: ["Futbol", "Jugar videojuegos", "Tocar la guitarra"],
     rrss: [
-      { id: uuidv4(), title: "instagram", src: "../media/rrssicons/logo_instagram.svg", href: "#"},
-      { id: uuidv4(), title: "facebook", src: "./media/rrssicons/logo_facebook.svg", href: "#"},
-      { id: uuidv4(), title: "github", src: "./media/rrssicons/logo_github.svg", href: "#"},
-      { id: uuidv4(), title: "behance", src: "./media/rrssicons/logo_behance.svg", href: "#"},
-      { id: uuidv4(), title: "linkedin", src: "./media/rrssicons/logo_linkedin.svg", href: "#"},
+      { id: uuidv4(), title: "instagram", src: "../media/rrssicons/logo_instagram.svg", href: "https://www.instagram.com/raam.gonzalez/"},
+      { id: uuidv4(), title: "facebook", src: "./media/rrssicons/logo_facebook.svg", href: "https://www.facebook.com/raam.gonzalez/"},
+      { id: uuidv4(), title: "github", src: "./media/rrssicons/logo_github.svg", href: "https://github.com/raamgonzalez"},
+      { id: uuidv4(), title: "behance", src: "./media/rrssicons/logo_behance.svg", href: "https://www.behance.net/ramsesgonzale"},
+      { id: uuidv4(), title: "linkedin", src: "./media/rrssicons/logo_linkedin.svg", href: "https://www.linkedin.com/in/ramsesoctaviogonzalez/"},
     ],
     study: [
       { id: uuidv4(), title: "reactjs", src : "./media/softicons/logo_react.svg"},
@@ -31,7 +31,7 @@ export const data = {
       soft: [ "html", "css", "javascript", "reactjs", "firebase" , "axios" ,  "sass"],
       media: "./media/projects/project_tecnophil.png",
       urlgit: "https://github.com/raamgonzalez/Ecommerce-Tecnophil_Gonzalez",
-      urldeploy: "https://ecommerce-react-34850-5g6qf957z-raamgonzalez.vercel.app/",
+      urldeploy: "https://ecommerce-react-34850.vercel.app/",
     },
     {
       id: uuidv4(),
@@ -40,7 +40,7 @@ export const data = {
       soft: [ "html", "css", "javascript", "reactjs", "sass"],
       media: "./media/projects/test.jpg",
       urlgit: "https://github.com/raamgonzalez/portfolio.basicweb",
-      urldeploy: "https://portfolio-basicweb-5nvzk0a2a-raamgonzalez.vercel.app/",
+      urldeploy: "https://portfolio-basicweb.vercel.app/"
     },
     {
       id: uuidv4(),

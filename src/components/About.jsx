@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import { GlobalContext } from '../context/GlobalContext';
 import { motion } from 'framer-motion'
+import SocialIcons from './SocialIcons';
 
 const About = () => {
 
@@ -39,15 +40,7 @@ const About = () => {
         <h3 className="about__h3">hobbies</h3>
       </motion.section>
       <section className="about__section social">
-        <motion.section 
-          variants={scrollingSpring}
-          initial="hidden"
-          whileInView={"visible"}
-          className='about__section--social'>
-          {
-            about.rrss.map((social) => <img className='skills__img' src={social.src} alt={`logo de ${social.tile}`} key={social.id}/>)
-          }
-        </motion.section>
+          <SocialIcons/>
         <h3 className="about__h3">social</h3>
       </section>
       <motion.section 

@@ -5,7 +5,8 @@
     @include flex(column, nowrap, flex-start, flex-start, 1em);
 
     .contact__section{
-        padding: 2em 4em;
+        padding: 2em 2em;
+
         @include card($font-title, $font-size-3);
         @include flex(row, nowrap, space-evenly, flex-start, 0);
     
@@ -13,7 +14,6 @@
     }
 
     .contact__title{
-        height: 10rem;
         width: 22.2rem;
 
 
@@ -32,7 +32,6 @@
 
         .contact__greeting{
             
-
             .contact__p{
                 font-family: $font-base;
                 font-size: $font-size-4;
@@ -47,7 +46,8 @@
     
 
     &__form{
-        margin: 0 0 0 4em;
+
+        margin: 0 0 0 5em;
         @include flex(column, nowrap, flex-start, flex-start, 0.5em);
 
         .form__input{
@@ -55,7 +55,7 @@
 
             border-radius: $border-radius-5px;
             font-size: $font-size-5;
-            width: 18em;
+            width: 25em;
             height: 2em;
             box-shadow: $shadow-button;
         }
@@ -64,7 +64,7 @@
 
             border-radius: $border-radius-5px;
             font-size: $font-size-5;
-            width: 18em;
+            width: 25em;
             height: 6em;
 
             box-shadow: $shadow-button;
@@ -76,17 +76,17 @@
 
             .form__button{
                 border-radius: $border-radius-5px;
+                color: $tertiary;
                 font-size: $font-size-5;
                 width: 8em;
                 height: 2em;
-
-
                 background-color: $secondary;
-                color: $primary;
+
                 border: none;
                 cursor: pointer;
                 transition: all 0.3s ease-in-out;
                 &:hover{
+                    color: $secondary;
                     background-color: $tertiary;
                 }
             }

@@ -8,7 +8,7 @@ const Project = (cardP) => {
 	
 	const { softwares, projects } = useContext(GlobalContext);
 
-	const { project: {id, name, description, media} } = cardP;
+	const { project: {id, name, description, media, urlgit, urldeploy} } = cardP;
 
 	
 	return (
@@ -26,11 +26,11 @@ const Project = (cardP) => {
 				<motion.button 
 				whileHover={{ scale: 1.05, backgroundColor: "#037ac5" }}
 				whileTap={{ scale: 1 }}
-				className='project__button'> Github </motion.button>
+				className='project__button'><a   href={urlgit} target="_blank" rel='noreferrer'> GitHub </a></motion.button>
 				<motion.button 
 				whileHover={{ scale: 1.05, backgroundColor: "#037ac5" }}
 				whileTap={{ scale: 1 }}
-				className='project__button'><a> Visit </a></motion.button>
+				className='project__button'><a  href={urldeploy} target="_blank" rel='noreferrer'> Visit </a></motion.button>
 			</section>
 		</motion.article>
 
