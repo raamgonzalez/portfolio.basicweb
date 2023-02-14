@@ -10,7 +10,7 @@
     grid-gap: 1em;
 
     .about__section{
-        padding: 1rem 1.5rem 2rem 1.5rem;
+        padding: 1.5rem 1.5rem;
   
 
         @include flex( column, nowrap, space-between, none, 0.1em);
@@ -47,8 +47,8 @@
     .resume{
         grid-column: 1 / 3;
         grid-row: 3 / 10;
-
     }
+
     .soft{
         grid-column: 3 / 6;
         grid-row: 3 / 8;
@@ -61,6 +61,7 @@
             font-weight: 600;
         }
     }
+
     .hobbies{
 
         grid-column: 6 / 8;

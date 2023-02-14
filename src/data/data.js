@@ -30,6 +30,8 @@ export const data = {
         "Tienda de venta de productos tecnologicos, aproveche para incorporar mock async",        
       soft: [ "html", "css", "javascript", "reactjs", "firebase" , "axios" ,  "sass"],
       media: "./media/projects/project_tecnophil.png",
+      urlgit: "https://github.com/raamgonzalez/Ecommerce-Tecnophil_Gonzalez",
+      urldeploy: "https://ecommerce-react-34850-5g6qf957z-raamgonzalez.vercel.app/",
     },
     {
       id: uuidv4(),
@@ -37,6 +39,8 @@ export const data = {
       description: "Web realizada con el fin de mostrar mis trabajos y desarrollo como programador",
       soft: [ "html", "css", "javascript", "reactjs", "sass"],
       media: "./media/projects/test.jpg",
+      urlgit: "https://github.com/raamgonzalez/portfolio.basicweb",
+      urldeploy: "https://portfolio-basicweb-5nvzk0a2a-raamgonzalez.vercel.app/",
     },
     {
       id: uuidv4(),
@@ -44,6 +48,8 @@ export const data = {
       description: "Blog de Arquitectura que contiene una consola de admin y cards con obras de arquitectura y arquitectos.",
       soft: [ "html", "css", "python", "django"],
       media: "./media/projects/test.jpg",
+      urlgit: "https://github.com/raamgonzalez/Ecommerce-Tecnophil_Gonzalez",
+      urldeploy: "https://ecommerce-react-34850-5g6qf957z-raamgonzalez.vercel.app/",
     },
     {
       id: uuidv4(),
@@ -51,6 +57,8 @@ export const data = {
       description: "Pagina web realizada para curso de programación fullstack python.",
       soft: [ "html", "css"],
       media: "./media/projects/project_regulux.png",
+      urlgit: "https://github.com/FerBarreyro/TPO-Desarrollo-WEB-Equipo-14-Comisi-n-22523.github.io",
+      urldeploy: "https://reguluxlamp.netlify.app/",
     },
     {
       id: uuidv4(),
@@ -58,6 +66,8 @@ export const data = {
       description: "Web para tienda de camisetas de futbol realizada en javascript vanilla",
       soft: [ "html", "css", "javascript"],
       media: "./media/projects/project_camisetasdprimera.png",
+      urlgit: "https://github.com/raamgonzalez/Ecommerce-Camisetas_Javascript",
+      urldeploy: "https://ecommerce-camisetasde1.netlify.app/",
     },
     {
       id: uuidv4(),
@@ -65,6 +75,8 @@ export const data = {
       description: "Web para tienda de camisetas de futbol realizada en javascript vanilla",
       soft: [ "html", "css", "javascript"],
       media: "./media/projects/test.jpg",
+      urlgit: "https://github.com/raamgonzalez/Ecommerce-Tecnophil_Gonzalez",
+      urldeploy: "https://ecommerce-react-34850-5g6qf957z-raamgonzalez.vercel.app/",
     },
   ],
 

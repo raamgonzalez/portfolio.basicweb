@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import { GlobalContext } from '../context/GlobalContext';
+import { motion } from 'framer-motion'
 
 import SoftIcons from './SoftIcons';
 
@@ -12,14 +13,26 @@ const Project = (cardP) => {
 	
 	return (
 
-		<article className='project__article'  key={id}>
+		<motion.article 
+		whileHover={{ scale: 1.05 }}
+		className='project__article'  key={id}>
 			<h4 className='project__h4'>{name}</h4>
 			<img src={media} href="#" className='project__img' alt={name}/>
 			<div className='softwares'>
 				<SoftIcons softwares={softwares} projects={projects}/>
 			</div>
 			<p className='project__p'>{description}</p>
-		</article>
+			<section className='project__buttons'>
+				<motion.button 
+				whileHover={{ scale: 1.05, backgroundColor: "#037ac5" }}
+				whileTap={{ scale: 1 }}
+				className='project__button'> Github </motion.button>
+				<motion.button 
+				whileHover={{ scale: 1.05, backgroundColor: "#037ac5" }}
+				whileTap={{ scale: 1 }}
+				className='project__button'><a> Visit </a></motion.button>
+			</section>
+		</motion.article>
 
 	)
 }

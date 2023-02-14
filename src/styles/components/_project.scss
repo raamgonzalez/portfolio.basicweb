@@ -15,14 +15,11 @@
             @include card($font-base, $font-size-4);
             height: 100%;
 
-    
-        
-        
-            .project__article{
-                display: flex;
-                flex-direction: column;
-                height: 100%;
-            }
+            // .project__article{
+            //     display: flex;
+            //     flex-direction: column;
+            //     height: 100%;
+            // }
         
             .project__h4{
                 padding: 1em;
@@ -56,12 +53,22 @@
             }
         
         }
-        :hover{
 
-            transform: scale(1.05);
-            transition: transform 0.3s ease-in-out;
+        .project__buttons{
+            @include flex( row, nowrap, space-evenly, center, 0.1em);
+        
+            .project__button{
+                border-radius: $border-radius-5px;
+                border: 0.2px solid black;
+                font-size: $font-size-5;
+                width: 8em;
+                height: 2em;
 
-    }
+                background-color: $secondary;
+                filter: brightness(0.9);
+                color: $primary;
+            }
+        }
     }
 
 }

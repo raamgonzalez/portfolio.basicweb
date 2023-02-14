@@ -1,11 +1,13 @@
 
 import React, { useContext } from 'react'
 import { GlobalContext } from '../context/GlobalContext'
+import { motion } from 'framer-motion'
 import SoftIcons from './SoftIcons'
+
 
 const Skills = () => {
 
-    const { softwares } = useContext(GlobalContext)
+    const { softwares, scrollingSpring } = useContext(GlobalContext)
 
 
   return (
@@ -14,15 +16,27 @@ const Skills = () => {
       <section className="skills__section skills__title">
 	  	  <p className="skills__p--title">(sk)</p>
       </section>
-      <section className="skills__section softicons">
+      <section 
+        className="skills__section softicons">
         {
-          softwares.map((software) => {
-            return <img className='skills__img' src={software.src} alt={software.title} key={software.id}/>
-            }) 
+          softwares.map((software) => <motion.img         
+          initial={"hidden"}
+          whileInView={"visible"}
+          variants={scrollingSpring} 
+          className='skills__img' src={software.src} alt={software.title} key={software.id}/>) 
         }
       </section>
       <section className="skills__section architect">
-        <img src="https://icongr.am/fontawesome/heart-o.svg?size=128&color=E8D8B1" href="#" className='architect__img' alt="tipo"/>
+        <motion.img 
+        animate={{scale:1.05}}
+        transition={{
+          duration: 0.5,
+          ease: 'backInOut',
+          repeat: Infinity,
+          repeatType: 'reverse',
+          delay:0.5,
+        }}
+        src="https://icongr.am/fontawesome/heart-o.svg?size=128&color=8EFFE9" href="#" className='architect__img' alt="tipo"/>
         <h3 className="skills__h3">arquitecto</h3>
       </section>
       <section className="skills__section extra">
