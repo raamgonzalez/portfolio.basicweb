@@ -1,0 +1,13 @@
+.footer{
+    margin: 8em auto 4em auto;
+
+    height: 5em;
+    width: 100%;
+
+    @include card($font-base, $font-size-4);
+    @include flex( column, nowrap, center, flex-start, 0.1em);
+
+    .footer__section{
+        padding: 1em 2em;
+    }
+}

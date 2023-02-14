@@ -18,8 +18,7 @@ const Skills = () => {
         {
           softwares.map((software) => {
             return <img className='skills__img' src={software.src} alt={software.title} key={software.id}/>
-          })
-
+            }) 
         }
       </section>
       <section className="skills__section architect">

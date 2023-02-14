@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;400&display=swap');
 
 //Colors
+// $primary : #FCFCFE;
+// $text: #181616;
+// $secondary : #3B5756;
+// $tertiary : #26FBD1;
+
 $primary : #FCFCFE;
-$text: #181616;
+$text: #2c188e;
 $secondary : #3B5756;
-$tertiary : #26FBD1;
+$tertiary : #ff4fb6;
 
 //Fonts
 $font-title: 'Oswald', sans-serif;
@@ -21,13 +26,16 @@ $font-size-5: 1rem;
 //Borders
 $border-1: 1px solid rgba(0, 0, 0, 0.2);
 
+
+//---------------Sacar los borders radius---------------
+
 //Borders-radius
-$border-radius-40px: 2.5rem;
-$border-radius-5px: 0.3rem;
+$border-radius-40px: 0;
+$border-radius-5px: 0;
 
 //Shadows
-$shadow-card: 4px 2px 12px 1px rgba(0, 0, 0, 0.1);
-$shadow-button: 2px 2px 2px 0px #26fbd08a;
+$shadow-card: 4px 2px 2px 1px rgba(0, 0, 0, 0.1);
+$shadow-button: 2px 2px 2px 0px #ff4fb6;
 
 
 

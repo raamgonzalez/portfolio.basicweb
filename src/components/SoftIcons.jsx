@@ -15,7 +15,8 @@ const SoftIcons = (props) => {
     };
   })
 
-  // console.log(intersected)
+  console.log(intersected)
+
 
   // const searchSoft = (softwares, projects) => {
 

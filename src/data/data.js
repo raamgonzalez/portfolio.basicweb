@@ -4,22 +4,21 @@ import { v4 as uuidv4} from 'uuid';
 export const data = {
 
   about: {
-    resume: "Hola!, mi nombre es Ramsés pero algunos me dicen raam. Soy un Arquitecto apasionado por el diseño web y el front-end, combinando mis habilidades técnicas y creativas para crear experiencias en línea atractivas y funcionales. Mi formación como arquitecto me ha brindado una sólida comprensión de la estructura y la planificación, mientras que mi interés por el diseño web me ha permitido explorar mi creatividad y aprender sobre las últimas tecnologías.",
-    soft: "$Comunicación efectiva colaboré en coordinación de proyectos $Trabajo en equipo trabaje en equipos de diseño y proyecto de espacio publico $Resolución de problemas participe en mesas participativas en los barrios $Adaptabilidad $Pasión por el aprendizaje",
-    hobbies: ["#Futbol", "#Jugar videojuegos", "#Tocar la guitarra", "#Pasear a Boo (mi perra)"],
+    resume: "Hola!, mi nombre es Ramsés pero algunos me dicen raam. Soy un Arquitecto apasionado por el diseño web y el front-end, combinando mis habilidades técnicas y creativas para crear experiencias en línea atractivas y funcionales.",
+    soft: ["Comunicación efectiva colaboré en coordinación de proyectos", "Trabajo en equipo trabaje en equipos de diseño y proyecto de espacio publico", "Resolución de problemas participe en mesas participativas en los barrios", "Adaptabilidad", "Pasión por el aprendizaje"],
+    hobbies: ["Futbol", "Jugar videojuegos", "Tocar la guitarra"],
     rrss: [
-      { id: uuidv4(), title: "instagra", src: "#", href: "#"},
-      { id: uuidv4(), title: "facebook", src: "#", href: "#"},
-      { id: uuidv4(), title: "github", src: "#", href: "#"},
-      { id: uuidv4(), title: "behance", src: "#", href: "#"},
-      { id: uuidv4(), title: "linkedin", src: "#", href: "#"},
-      { id: uuidv4(), title: "instagram", src: "#", href: "#"},
+      { id: uuidv4(), title: "instagram", src: "../media/rrssicons/logo_instagram.svg", href: "#"},
+      { id: uuidv4(), title: "facebook", src: "./media/rrssicons/logo_facebook.svg", href: "#"},
+      { id: uuidv4(), title: "github", src: "./media/rrssicons/logo_github.svg", href: "#"},
+      { id: uuidv4(), title: "behance", src: "./media/rrssicons/logo_behance.svg", href: "#"},
+      { id: uuidv4(), title: "linkedin", src: "./media/rrssicons/logo_linkedin.svg", href: "#"},
     ],
     study: [
-      { id: uuidv4(), title: "reactjs", src : "#"},
-      { id: uuidv4(), title: "jquery", src : "#"},
-      { id: uuidv4(), title: "astro", src : "#"},
-      { id: uuidv4(), title: "jest", src : "#"},
+      { id: uuidv4(), title: "reactjs", src : "./media/softicons/logo_react.svg"},
+      { id: uuidv4(), title: "jquery", src : "./media/softicons/logo_jquery.svg"},
+      { id: uuidv4(), title: "astro", src : "./media/softicons/logo_astro.svg"},
+      { id: uuidv4(), title: "jest", src : "./media/softicons/logo_jest.svg"},
     ]
    },
   
@@ -30,7 +29,7 @@ export const data = {
       description:
         "Tienda de venta de productos tecnologicos, aproveche para incorporar mock async",        
       soft: [ "html", "css", "javascript", "reactjs", "firebase" , "axios" ,  "sass"],
-      media: "./media/projects/test.jpg",
+      media: "./media/projects/project_tecnophil.png",
     },
     {
       id: uuidv4(),
@@ -51,7 +50,14 @@ export const data = {
       name: "landing-page lamparas",
       description: "Pagina web realizada para curso de programación fullstack python.",
       soft: [ "html", "css"],
-      media: "./media/projects/test.jpg",
+      media: "./media/projects/project_regulux.png",
+    },
+    {
+      id: uuidv4(),
+      name: "tienda de camiseta",
+      description: "Web para tienda de camisetas de futbol realizada en javascript vanilla",
+      soft: [ "html", "css", "javascript"],
+      media: "./media/projects/project_camisetasdprimera.png",
     },
     {
       id: uuidv4(),

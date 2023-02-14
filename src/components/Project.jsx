@@ -8,6 +8,7 @@ const Project = (cardP) => {
 	const { softwares, projects } = useContext(GlobalContext);
 
 	const { project: {id, name, description, media} } = cardP;
+
 	
 	return (
 

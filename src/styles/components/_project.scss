@@ -14,6 +14,8 @@
 
             @include card($font-base, $font-size-4);
             height: 100%;
+
+    
         
         
             .project__article{
@@ -54,31 +56,12 @@
             }
         
         }
+        :hover{
+
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+
+    }
     }
 
 }
-
-// .projects__title{
-//     margin: 16rem 0 1em 0;
-//     width: 60%;
-//     height: 7em;
-
-//     background-color: $primary;
-//     font-family: $font-base;
-
-//     border-radius: $border-radius-40px;
-//     border: $border-1;
-//     box-shadow: $shadow-card;
-
-//     @include flex( row, nowrap, flex-end, center, 0);
-    
-//     .projects__p--title{
-//         margin: 0 0 0 0;
-//         font-size: $font-size-1;
-//         font-family: $font-title;
-//         font-weight: 300;
-//     }
-// }
-
-
-

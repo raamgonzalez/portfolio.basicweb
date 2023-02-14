@@ -10,19 +10,22 @@
     grid-gap: 1em;
 
     .about__section{
+        padding: 1rem 1.5rem 2rem 1.5rem;
+  
 
-        @include flex( column, nowrap, none, flex-start, 0.1em);
+        @include flex( column, nowrap, space-between, none, 0.1em);
         @include card($font-title, $font-size-1);
 
         .about__p{
-            margin: 1em 1em;
+            // margin: 0.5em 0.2em;
             font-size: $font-size-4;
             font-family: $font-base;
         }
 
+
         .about__h3{
+
             font-size: $font-size-2;
-            margin-left: 0.6em;
 
             text-align: left;
         }
@@ -44,23 +47,54 @@
     .resume{
         grid-column: 1 / 3;
         grid-row: 3 / 10;
+
     }
     .soft{
         grid-column: 3 / 6;
         grid-row: 3 / 8;
+
+        .about__p--skills{
+            line-height: 0.9;
+        }
+
+        .about__span{
+            font-weight: 600;
+        }
     }
     .hobbies{
+
         grid-column: 6 / 8;
         grid-row: 3 / 6;
+
+        .about__p--hobbie{
+            line-height: 0.9;
+        }
+
+        .about__span{
+            font-weight: 600;
+        }
     }
+
     .social{
+        padding: 2rem 1.5rem;
         grid-column: 3 / 6;
         grid-row: 8 / 11;
+
+        .about__section--social{
+            @include flex( row, wrap, flex-start, flex-start, 1rem);
+        }
     }
     .study{
         grid-column: 6 / 8;
         grid-row: 7 / 11;
+
+        .about__section--study{
+            @include flex( row, wrap, flex-start, flex-start, 1rem);
+        }
     }
+            .skills__img{
+            width: 3rem;
+        }
 }
 
 

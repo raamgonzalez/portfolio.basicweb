@@ -4,6 +4,8 @@ import GlobalContextProvider from './context/GlobalContext';
 import Rutas from './routes/Rutas';
 
 function App() {
+
+
   return (
     <>
     
