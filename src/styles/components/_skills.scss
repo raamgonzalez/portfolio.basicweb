@@ -46,8 +46,11 @@
 
         .skills__img{
             width: 3rem;
+
         }
+
     }
+
 
     .architect{
         @include flex( column, nowrap, center, flex-start, 0.3em);

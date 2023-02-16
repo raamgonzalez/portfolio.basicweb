@@ -9,19 +9,19 @@ const MainContainer = () => {
 			<section className='landingpage'>
 				<section className='card landingpage__about'>
 					<header className='card__header'>
-						<a href="#" className="card__a" title="#"><img src="https://icongr.am/jam/chevron-up-right.svg?size=42&color=5023ff" alt="#" className='card__img'/></a>
+						<a href="#about" className="card__a" title="#"><img src="https://icongr.am/jam/chevron-up-right.svg?size=42&color=5023ff" alt="#" className='card__img'/></a>
 					</header>
 					<h2 className='card__h2'>about</h2>
 				</section>
 				<section className='card landingpage__projects'>
 					<header className='card__header'>
-						<a href="#" className="card__a" title="#"><img src="https://icongr.am/jam/chevron-up-right.svg?size=42&color=5023ff" alt="#" className='card__img'/></a>
+						<a href="#projects" className="card__a" title="#"><img src="https://icongr.am/jam/chevron-up-right.svg?size=42&color=5023ff" alt="#" className='card__img'/></a>
 					</header>
 					<h2 className='card__h2'>projects</h2>
 				</section>
 				<section className='card landingpage__skills'>
 					<header className='card__header'>
-						<a href="#" className="card__a" title="#"><img src="https://icongr.am/jam/chevron-up-right.svg?size=42&color=5023ff" alt="#" className='card__img'/></a>
+						<a href="#skills" className="card__a" title="#"><img src="https://icongr.am/jam/chevron-up-right.svg?size=42&color=5023ff" alt="#" className='card__img'/></a>
 					</header>
 					<h2 className='card__h2 h2--skills'>skills</h2>
 				</section>
@@ -44,7 +44,7 @@ const MainContainer = () => {
 				</section>
 				<section className='card landingpage__contact'>
 					<header className='card__header'>
-						<a href="#" className="card__a" title="#"><img src="https://icongr.am/jam/chevron-up-right.svg?size=42&color=5023ff" alt="#" className='card__img'/></a>
+						<a href="#contact" className="card__a" title="#"><img src="https://icongr.am/jam/chevron-up-right.svg?size=42&color=5023ff" alt="#" className='card__img'/></a>
 					</header>
 					<h2 className='card__h2 h2--contact'>contact</h2>
 				</section>

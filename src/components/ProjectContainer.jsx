@@ -16,7 +16,9 @@ const ProjectContainer = () => {
           <p className="projects__p--title">(ab)</p>
         </section>
       </section> */}
+
       <section className='projects'>
+        <a id="projects"></a>
         <section className='project__section'>
           {
             projects.map((work) => (

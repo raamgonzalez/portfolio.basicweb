@@ -119,27 +119,27 @@ export const data = {
     {
       id: uuidv4(),
       title: "cli",
-      src: "./media/softicons/logo_html.svg",
+      src: "./media/softicons/logo_cmd.svg",
     },
     {
       id: uuidv4(),
       title: "figma",
-      src: "./media/softicons/logo_html.svg",
+      src: "./media/softicons/logo_figma.svg",
     },
     {
       id: uuidv4(),
       title: "photoshop",
-      src: "./media/softicons/logo_html.svg",
+      src: "./media/softicons/logo_photoshop.svg",
     },
     {
       id: uuidv4(),
-      title: "axios",
+      title: "astro",
       src: "./media/softicons/logo_html.svg",
     },
     {
       id: uuidv4(),
       title: "firebase",
-      src: "./media/softicons/logo_html.svg",
+      src: "./media/softicons/logo_firebase.svg",
     },
   ],
 };

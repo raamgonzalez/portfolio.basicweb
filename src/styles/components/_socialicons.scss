@@ -1,6 +1,6 @@
 
 .about__section--social{
-    @include flex( row, wrap, space-evenly, flex-start, 1rem);
+    @include flex( row, wrap, none, flex-start, 1rem);
 }
 
 .skills__img{
