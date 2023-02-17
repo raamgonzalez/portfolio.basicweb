@@ -7,6 +7,7 @@ import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Marquee from '../components/Marquee'
+import Loader from '../components/Loader'
 
 
 
@@ -14,6 +15,7 @@ const Home = () => {
 
   return (
     <>
+    {/* <Loader/> */}
       <Marquee/>
       <div className='wrapper'>
         <Header/>

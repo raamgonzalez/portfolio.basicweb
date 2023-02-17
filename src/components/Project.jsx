@@ -24,11 +24,11 @@ const Project = (cardP) => {
 			<p className='project__p'>{description}</p>
 			<section className='project__buttons'>
 				<motion.button 
-				whileHover={{ scale: 1.05, backgroundColor: "#037ac1" }}
+				whileHover={{ scale: 1.05, backgroundColor: "#037ac5" }}
 				whileTap={{ scale: 1 }}
 				className='project__button'><a   href={urlgit} target="_blank" rel='noreferrer'> GitHub </a></motion.button>
 				<motion.button 
-				whileHover={{ scale: 1.05, backgroundColor: "#037ac1" }}
+				whileHover={{ scale: 1.05, backgroundColor: "#037ac5" }}
 				whileTap={{ scale: 1 }}
 				className='project__button'><a  href={urldeploy} target="_blank" rel='noreferrer'> Visit </a></motion.button>
 			</section>

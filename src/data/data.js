@@ -15,7 +15,7 @@ export const data = {
       { id: uuidv4(), title: "linkedin", src: "./media/rrssicons/logo_linkedin.svg", href: "https://www.linkedin.com/in/ramsesoctaviogonzalez/"},
     ],
     study: [
-      { id: uuidv4(), title: "reactjs", src : "./media/softicons/logo_react.svg"},
+      { id: uuidv4(), title: "reactjs", src : "./media/softicons/logo_react_study.svg"},
       { id: uuidv4(), title: "jquery", src : "./media/softicons/logo_jquery.svg"},
       { id: uuidv4(), title: "astro", src : "./media/softicons/logo_astro.svg"},
       { id: uuidv4(), title: "jest", src : "./media/softicons/logo_jest.svg"},
@@ -40,7 +40,7 @@ export const data = {
       soft: [ "html", "css", "javascript", "reactjs", "sass"],
       media: "./media/projects/test.jpg",
       urlgit: "https://github.com/raamgonzalez/portfolio.basicweb",
-      urldeploy: "https://portfolio-basicweb.vercel.app/"
+      urldeploy: "https://portfolio-basicweb.vercel.app/",
     },
     {
       id: uuidv4(),
