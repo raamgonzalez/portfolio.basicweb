@@ -39,7 +39,8 @@ const Skills = () => {
             repeatType: 'reverse',
             delay:0.5,
           }}
-          src="https://icongr.am/fontawesome/heart-o.svg?size=128&color=fdcadc" href="#" className='architect__img' alt="tipo"/>
+          src="https://icongr.am/fontawesome/heart-o.svg?size=128&color=2A7887"
+           href="#" className='architect__img' alt="tipo"/>
           <h3 className="skills__h3">arquitecto</h3>
         </section>
         <section className="skills__section extra">

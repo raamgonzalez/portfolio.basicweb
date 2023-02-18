@@ -56,14 +56,13 @@
         
             .project__button{
                 border-radius: 0.3em;
-                border: 0.2px solid black;
+                border: 0.2px solid rgb(133, 132, 132);
                 font-size: $font-size-5;
                 width: 8em;
                 height: 2em;
 
-                background-color: $text;
-                filter: brightness(0.9);
-                color: $primary;
+                // background-color: #e77e7e;
+                color: $tertiary;
             }
         }
     }

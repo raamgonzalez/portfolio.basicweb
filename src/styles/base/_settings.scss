@@ -7,9 +7,10 @@
 // $tertiary : #26FBD1;
 
 $primary : #FCFCFE;
-$text: #2c188e;
-$secondary : #5023ff;
-$tertiary : #f5f139;
+$text: #191C43;
+$secondary : #30316E;
+$tertiary : #2A7887;
+$option: #FBD1EA;
 
 //Fonts
 $font-title: 'Oswald', sans-serif;
@@ -30,12 +31,12 @@ $border-1: 1px solid rgba(0, 0, 0, 0.2);
 //---------------Sacar los borders radius---------------
 
 //Borders-radius
-$border-radius-40px: 0;
+$border-radius-40px: 2.5rem;
 $border-radius-5px: 0;
 
 //Shadows
 $shadow-card: 4px 2px 2px 1px rgba(0, 0, 0, 0.1);
-$shadow-button: 2px 2px 2px 0px #ff4fb6;
+$shadow-button: 2px 2px 2px 0px $option;
 
 
 

@@ -16,6 +16,7 @@ const Home = () => {
   return (
     <>
     {/* <Loader/> */}
+      <a id="initial"></a>
       <Marquee/>
       <div className='wrapper'>
         <Header/>
