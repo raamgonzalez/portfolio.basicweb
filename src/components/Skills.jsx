@@ -21,8 +21,7 @@ const Skills = () => {
         <section 
           className="skills__section softicons">
           {
-            softwares.map((software) => <motion.img 
-            // whileHover={{ scale: 1.1,}}        
+            softwares.map((software) => <motion.img   
             initial={"hidden"}
             whileInView={"visible"}
             variants={scrollingSpring} 

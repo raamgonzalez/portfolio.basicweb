@@ -71,18 +71,19 @@
     grid-column: 3 / 8;
     grid-row: 1 / 6;
 
-    background-image: url("~/public/media/profile/profile_projects.jpg");
-    background-size: cover;
+    background-image: url(.~/public/media/background/topography.svg);
 }
 
 .landingpage__skills{
     grid-column: 1 / 4;
     grid-row: 6 / 8;
+    background-image: url(.~/public/media/background/plus.svg);
 }
 
 .landingpage__contact{
     grid-column: 4 / 8;
     grid-row: 6 / 8;
+    background-image: url(.~/public/media/background/texture.svg);
 }
 
 .landingpage__scroll{
