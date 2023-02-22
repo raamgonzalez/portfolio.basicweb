@@ -2,7 +2,6 @@
 import React, { useContext } from 'react'
 import { GlobalContext } from '../context/GlobalContext'
 import { motion } from 'framer-motion'
-import SoftIcons from './SoftIcons'
 
 
 const Skills = () => {
@@ -43,8 +42,11 @@ const Skills = () => {
           <h3 className="skills__h3">arquitecto</h3>
         </section>
         <section className="skills__section extra">
-          <p className="skills__p">text extra</p>
-          <h3 className="skills__h3">Extra</h3>
+          <motion.h3
+          whileHover={{ scale: 1.1, textDecoration: "underline", color: "#FBD1EA", transition: "all 0.3s ease-in-out"}}
+          whileTap={{ scale: 1 }}
+          className="skills__h3--cv"><a href='https://www.canva.com/design/DAE9IbXuAKU/H4yGhPwy2c8YSVa0RmWxvA/view?website#4' target="_blank" rel='noreferrer'>CV</a>
+          </motion.h3>
         </section>
       </section>
     </>

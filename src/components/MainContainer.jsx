@@ -7,25 +7,16 @@ const MainContainer = () => {
 		<>
 			<section className='landingpage'>
 				<section className='card landingpage__about'>
-					<header className='card__header'>
-						<a  className="card__a" title="#"><img src="https://icongr.am/jam/chevron-down.svg?size=42&color=191C43" alt="Icono de flecha hacia abajo" className='card__img' target="_blank" href="noopener noreferrer"/></a>
-					</header>
 					<motion.a 
 					whileHover={{ textDecoration: "underline", textDecorationColor: "#FBD1EA", transition: "all 0.3s ease-in-out"  }}
-					href="#about" className='card__h2'>about</motion.a>
+					href="#about" className='card__h2'>acerca</motion.a>
 				</section>
 				<section className='card landingpage__projects'>
-					<header className='card__header'>
-						<a  className="card__a" title="#"><img src="https://icongr.am/jam/chevron-down.svg?size=42&color=191C43" alt="Icono de flecha hacia abajo" className='card__img' target="_blank" href="noopener noreferrer"/></a>
-					</header>
 					<motion.a 
 					whileHover={{ textDecoration: "underline", textDecorationColor: "#FBD1EA", transition: "all 0.3s ease-in-out"  }}
-					href="#projects" className='card__h2'>projects</motion.a>
+					href="#projects" className='card__h2'>proyectos</motion.a>
 				</section>
 				<section className='card landingpage__skills'>
-					<header className='card__header'>
-						<a  className="card__a" title="#"><img src="https://icongr.am/jam/chevron-down.svg?size=42&color=191C43" alt="Icono de flecha hacia abajo" className='card__img' target="_blank" href="noopener noreferrer"/></a>
-					</header>
 					<motion.a 
 					whileHover={{ textDecoration: "underline", textDecorationColor: "#FBD1EA", transition: "all 0.3s ease-in-out" }}
 					href="#skills" className='card__h2 h2--skills'>skills</motion.a>
@@ -48,12 +39,9 @@ const MainContainer = () => {
 						</p>
 				</section>
 				<section className='card landingpage__contact'>
-					<header className='card__header'>
-						<a  className="card__a" title="#"><img src="https://icongr.am/jam/chevron-down.svg?size=42&color=191C43" alt="Icono de flecha hacia abajo" className='card__img' target="_blank" href="noopener noreferrer"/></a>
-					</header>
 					<motion.a 
 					whileHover={{ textDecoration: "underline", textDecorationColor: "#FBD1EA", animation: easeInOut }}
-					href="#contact" className='card__h2 h2--contact'>contact</motion.a>
+					href="#contact" className='card__h2 h2--contact'>contacto</motion.a>
 				</section>
 			</section>
 

@@ -13,13 +13,14 @@
 }
 
 .card{
+    padding: 3rem 1.5rem;
 
-    @include flex( column, nowrap, none, flex-start, 0.1em);
+    @include flex( column, nowrap, flex-end, flex-start, 0.1em);
     @include card();
 
     .card__h2{
-        margin-left: 0.4em;
-        margin-top: 3.3em;
+        // margin-left: 0.4em;
+        // margin-top: 3.3em;
     }
     .h2--skills{
         margin-top: 0.3em;
@@ -71,19 +72,19 @@
     grid-column: 3 / 8;
     grid-row: 1 / 6;
 
-    background-image: url(.~/public/media/background/topography.svg);
+    background-image: url(.~/public/media/background/back__projects.svg);
 }
 
 .landingpage__skills{
     grid-column: 1 / 4;
     grid-row: 6 / 8;
-    background-image: url(.~/public/media/background/plus.svg);
+    background-image: url(.~/public/media/background/back__skills.svg);
 }
 
 .landingpage__contact{
     grid-column: 4 / 8;
     grid-row: 6 / 8;
-    background-image: url(.~/public/media/background/texture.svg);
+    background-image: url(.~/public/media/background/back__contact.svg);
 }
 
 .landingpage__scroll{
